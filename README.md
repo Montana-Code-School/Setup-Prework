@@ -78,3 +78,7 @@ We will try to limit our programming within one folder, our "code" folder. We wi
 * now create an empty file: `touch emptyFile.js`
 
 Organize all of your code in this folder. If you need to get to the folder within Finder, you can navigate to your user home folder, and the code folder will be within it.
+
+## Finally
+
+At any point during your configuration, or your prework in general, please don't hesitate to get ahold of your instructor, either over email or Slack.
