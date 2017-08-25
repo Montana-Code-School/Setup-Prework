@@ -26,7 +26,7 @@ Here is what I use to protect my data:
 
 ## WINDOWS?
 
-**If you are running a Windows machine**, we will need to get you set up with another operating system, Ubuntu. Don't panic, let's set up your computer in a way that allows for both Windows and Ubuntu to run. [**Go to the dual-boot walkthrough here.**](../dual-boot.md)
+**If you are running a Windows machine**, we will need to get you set up with another operating system, Ubuntu. Don't panic, let's set up your computer in a way that allows for both Windows and Ubuntu to run.
 
 ## Setting up a dual-boot machine (Ubuntu and Windows)
 
