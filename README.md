@@ -26,7 +26,7 @@ Here is what I use to protect my data:
 
 ## WINDOWS?
 
-**If you are running a Windows machine**, we will need to get you set up with another operating system, Ubuntu. Don't panic, let's set up your computer in a way that allows for both Windows and Ubuntu to run. [**Go to the dual-boot walkthrough here.**](../dual-boot.md)
+**If you are running a Windows machine**, we will need to get you set up with another operating system, Ubuntu. Don't panic, let's set up your computer in a way that allows for both Windows and Ubuntu to run.
 
 ## Setting up a dual-boot machine (Ubuntu and Windows)
 
@@ -84,3 +84,7 @@ We will try to limit our programming within one folder, our "code" folder. We wi
 * now create an empty file: `touch emptyFile.js`
 
 Organize all of your code in this folder. If you need to get to the folder within Finder, you can navigate to your user home folder, and the code folder will be within it.
+
+## Finally
+
+At any point during your configuration, or your prework in general, please don't hesitate to get ahold of your instructor, either over email or Slack.
