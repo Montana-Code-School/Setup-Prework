@@ -60,6 +60,10 @@ Now, programming is just a bunch of text editing. We use the Atom text editor. I
 
 [Download Atom](https://atom.io/)
 
+This step is optional for some classes but highly recommended for everyone:
+
+Signup for a [Wakatime](https://wakatime.com) account and [Integrate Wakatime](https://wakatime.com/atom) into Atom
+
 ### Remove things from your desktop
 
 They don't need to be on your desktop, put them in a folder inside of your documents folder. This is mostly just a strongly held pet-peeve of mine.
