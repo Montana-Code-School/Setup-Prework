@@ -73,6 +73,12 @@ Clear up space and reduce clutter.
 We will try to limit our programming within one folder, our "code" folder. We will also learn our first terminal commands in the process. Let's set that up.
 
 * Open up Terminal
+  * In the linux environment use the search bar to find the terminal
+   ![linux shell search](http://linuxbsdos.com/wp-content/uploads/2012/09/Shell.png)
+  * in OSX use Spotlight
+   ![spotlight mac](https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/Product_Help/en_US/PUBLIC_USERS/135122/S0071_SpotlightMenu.png)
+* The next commands will all be run from the Command Line, the space after the `$` is called the prompt
+   ![terminal shell](https://www.howtogeek.com/wp-content/uploads/2016/10/xansiweather-mac-terminal.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.eKbZVGPsfl.png)
 * create a new folder: `mkdir ~/code`
 * go to the folder: `cd ~/code`
 * now create an empty file: `touch emptyFile.js`
