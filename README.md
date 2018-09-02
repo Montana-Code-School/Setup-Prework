@@ -4,7 +4,7 @@ At Montana Code School, we all need to be running similar systems and software t
 
 Here is a list of what we support here at the code school:
 
-* macOS or Linux operating system
+* macOS
 * Google Chrome
 * Atom text editor
 
@@ -58,11 +58,21 @@ We will be using Google Chrome for this class. It is fast, has great debugging t
 
 Now, programming is just a bunch of text editing. We use the Atom text editor. It is highly customizable and really well made.
 
-[Download Atom](https://atom.io/)
+[Download Atom](https://atom.io/) - put it in your task bar, install command line tools.
 
 This step is optional for some classes but highly recommended for everyone:
 
 Signup for a [Wakatime](https://wakatime.com) account and [Integrate Wakatime](https://wakatime.com/atom) into Atom
+
+Here are some things you will need to download
+
+Get [LastPass](https://www.lastpass.com/) - password manager, download the app, get the chrome extension.
+
+[Slack account](https://slack.com/) download the app but it in your taskbar.
+
+[Github account](https://github.com/) as a bonus step [setup ssh](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) for git.
+
+[Heroku account](https://www.heroku.com/) as a bonus - Heroku command line tools
 
 ### Remove things from your desktop
 
@@ -88,6 +98,36 @@ We will try to limit our programming within one folder, our "code" folder. We wi
 * now create an empty file: `touch emptyFile.js`
 
 Organize all of your code in this folder. If you need to get to the folder within Finder, you can navigate to your user home folder, and the code folder will be within it.
+
+### Things learned from history 
+****
+
+So many things, below are some steps you need to take that I was not aware of...  You are in tech now, the rate of change is exceedingly high.  Get used to it.
+
+ - [ ] Upgrade to high sierra, latest mac os
+ - [ ] Download xcode from the app store
+ - [ ] do you know how to find your terminal?
+   - **Nope**
+     - open spotlight in your finder bar at the top it's a little magnifying glass.
+     - take a minute to drag the app to your shortcuts bar, you will be using it a lot.
+     - open it
+   - **Yes of course I do** countinue on into the woods....
+   
+- [ ] if terminal is running quit and restart.
+- [ ] In your new terminal instance type `xcode-select --install` at your command prompt and press enter. Your command prompt looks like -> `$` <- with some text in front of it.
+    - **Error?** You might get a path error here, drop it into google or slack, we'll see what we can do.
+    - **No Error** -> countinue on down the rocky path...
+- [ ] Google -> **|** homebrew install mac os **|** this page will have a curl command to install homebrew. The url should look like -> `brew.sh`
+ [ ] Copy the command and paste it into your terminal, this is in general a bad idea, so lets double check that you want to the right place `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+` is good? Press return.
+
+  *sidenote --* your terminal is a powerful place, you can delete files and folders with a keystroke, take a moment in the beginning to double check, post in slack if you are unsure.
+   
+ - [ ] Check that you installed brew at your command prompt -> `$` type `brew -v` it should give you version output
+
+ - [ ] install node -> `brew install node`
+ - [ ] install npm -> `brew install npm`
+ - [ ] -> `$` type `node -v` and `npm -v` these should give you version output
 
 ## Finally
 
