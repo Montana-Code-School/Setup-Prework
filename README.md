@@ -1,4 +1,5 @@
-# Configuring your setup for Montana Code School
+# Pre-work Set Up for Montana Code School
+### (Bozeman Campus Edition)
 
 At Montana Code School, we all need to be running similar systems and software to make it easier for us all to share and communicate.
 
