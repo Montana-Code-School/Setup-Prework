@@ -73,9 +73,10 @@ We can work with that, let's chat more prior to the course starting.
 ### Loose Your Terminal Fear
 
 The standard Terminal is boring. Let's make it pretty!
-* Open Terminal
-  1. Open Spotlight Search (<kbd>Command</kbd> + <kbd>Spacebar</kbd>
-  2. Type Terminal and hit <kbd>Enter</kbd>)
+1. Open Terminal
+  1. Open Spotlight Search (<kbd>Command</kbd> + <kbd>Spacebar</kbd>)
+  2. Type Terminal and hit <kbd>Enter</kbd>
+  3. Terminal App should open in its 
 * Generate a SSH key
 * Adding a new SSH key to your GitHub account
 * Add SSH key to Sourcetree
