@@ -1,5 +1,5 @@
 # Set Up Guide for Montana Code School
-### (Bozeman Campus Edition)
+## Bozeman Campus Edition
 
 At Montana Code School, we all need to be running similar systems and software to make it easier for us all to share and communicate.
 
@@ -8,17 +8,8 @@ Please follow the following guide prior to the first day of class, so we can all
 ## Hardware
 
 ### You Have to Bring to Class
-* Apple Macbook (ideally Macbook Pro, things can get intense coding, so the more RAM, storgae, etc. the better)
-* Any sort of dongle you need to plug in into a HDMI input on a big screen TV 
-
-### Optional Things Which make Things easier at home
-Here is a list of what we support here at the code school:
-
-* macOS 
-* Google Chrome
-* Atom text editor
-
-This walkthrough is meant to help you set up your machine for the code school, and get you more comfortable with making changes.
+* Apple Macbook (ideally Macbook Pro, things can get intense coding, so the more RAM, storage, etc. the better).
+* Any sort of dongle you need to plug in into a HDMI input on a big screen TV.
 
 ## Back Up Your Current Data
 
@@ -64,8 +55,8 @@ We can work with that, let's chat more prior to the course starting.
 
 ### Sign-Up for following accounts
 * [LinkedIn](http://linkedin.com)
-  * Create and/or polish your profile, it is at least as important as your resume if not more if you are looking for developer job. 
-  * Connect to your instructors [Mark] and [Georgie].
+  * Create and/or polish your profile, it is at least as important as your resume if not more if you are looking for tech job. 
+  * Connect to your instructors [Georgie](https://www.linkedin.com/in/georgiekirschner/) and [Mark](https://www.linkedin.com/in/mark-buckner/).
 * [GitHub](http://github.com)
   * Create an account. Pretty much all of the code you will write, will end up here. Again a lot of companies look at the activity on your profile.
   * Slack your GitHub user name into our channel so we can add you as a member to our Montana Code School GitHub account.
@@ -79,7 +70,7 @@ The standard Terminal is boring. Let's make it pretty!
 4. Install [Homebrew](https://brew.sh/) by pasting the following code<br>`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br>into your Terminal and pressing <kbd>Enter</kbd>
 * The magic should begin and a bunch of output gets printed to your terminal.
 * Once the installation is done type `brew -v` and hit <kbd>Enter</kbd>
-* You should see `Homebrew 1.6.9` output in your terminal which means it has been installed successfully (if not try to repeat above steps)
+* You should see `Homebrew 1.7.3` output (maybe with higher version number) in your terminal which means it has been installed successfully (if not try to repeat above steps).
 
 # TO BE CONTINUED...
 
