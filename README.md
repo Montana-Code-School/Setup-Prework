@@ -1,65 +1,86 @@
-# Pre-work Set Up for Montana Code School
+# Set Up Guide for Montana Code School
 ### (Bozeman Campus Edition)
 
 At Montana Code School, we all need to be running similar systems and software to make it easier for us all to share and communicate.
 
+Please follow the following guide prior to the first day of class, so we can all hit the ground running on day one.
+
+## Hardware
+
+### You Have to Bring to Class
+* Apple Macbook (ideally Macbook Pro, things can get intense coding, so the more RAM, storgae, etc. the better)
+* Any sort of dongle you need to plug in into a HDMI input on a big screen TV 
+
+### Optional Things Which make Things easier at home
 Here is a list of what we support here at the code school:
 
-* macOS
+* macOS 
 * Google Chrome
 * Atom text editor
 
 This walkthrough is meant to help you set up your machine for the code school, and get you more comfortable with making changes.
 
-## Before you start
+## Back Up Your Current Data
 
-**Make sure you backup all of your data**
+**Make sure you backup all of your data prior to your course and periodically thereafter**
 
-One of the first myths we need to dispel is that computers are fragile. As a programmer, you will be installing and configuring a lot of software, and some of these can cause issues with other software. Someday you **will** lose data, so you have to get in the habit of making backups periodically.
+There many ways to backup your Macbook, here are the most common ones:
 
-I would recommend keeping a hard drive around, or subscribing to a service like Dropbox to store your data.
+* [Apple Time Machine](https://support.apple.com/mac-backup/)
+* [Apple iCloud](https://support.apple.com/mac-backup/)
+* [Dropbox](https://www.dropbox.com/)
+* External Hard Drive
 
-Here is what I use to protect my data:
+## Give Your Mac a Good Cleaning
+If your Mac already runs pretty slow, it won't get any faster with the stuff we are doing.
 
-[Seagate Backup 1TB](https://www.amazon.com/Seagate-Backup-Portable-External-STDR1000100/dp/B00H4XH5FY)
+**So do yourself a favor and give it a good cleaning ;)**
 
-[Dropbox Plus](https://www.dropbox.com/upgrade)
+Uninstall unnecessary software, clear up space and reduce clutter.
 
-## WINDOWS?
+A great tool for house cleaning is [CleanMyMac](https://macpaw.com/cleanmymac) by MacPaw.
 
-**If you are running a Windows machine**, we will need to get you set up with another operating system, Ubuntu. Don't panic, let's set up your computer in a way that allows for both Windows and Ubuntu to run.
+## Software
+Again, since we will do a lot of mob/pair programming it is easiest that we all install and work on the same software.
 
-## Setting up a dual-boot machine (Ubuntu and Windows)
+Sharing machines and having to switch from one text editor to a different one has proven to be a huge time sink. Finding the right keyboard shortcut gets very cumbersome and just gets in the way especially when your brain is working hard on solving a coding problem.
 
-Begin by looking at the walkthrough here:
+**To avoid these problems we will "make" you use a specific bundle of software** (This is also not uncommon in the working world for the same reasons)
 
-https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654
+### Things You Have To Install (and Use)
+* macOS (Well this should be installed if you have a Mac ;) )
+* xCode (Install from the App Store if it is not installed)
+* [Slack Desktop & Mobile App](https://slack.com/downloads/) (Your communication timeline for the class and potentially at your future employer)
+* [Google Chrome](https://www.google.com/chrome/) (Only latest NON-Canary version please)
+* [Visual Studio Code](https://code.visualstudio.com/download) (IDE/ Source Code Editor)
+* [Sourcetree](https://www.sourcetreeapp.com/) (Git Client)
 
-If you are running a Windows machine, your first challenge is going to be setting up another operating system for you to do your programming in. Windows is fine for many programmers, but many of the programs and languages that we will be using are used much more effectively with a Linux based operating system (or macOS, which is similar).
 
-For this we will be setting up what is called a *dual-boot*. This will essentially install two operating systems on your computer, allowing you to switch between them whenever you start up your computer.
+### Windows?
+Sorry, we don't have time for this **** :P
 
-If you already backed up your data, you have nothing to worry about. Follow the walkthrough slowly, and make sure you pay special attention to the hard drive partition section.
+### Linux?
+We can work with that, let's chat more prior to the course starting.
 
-Once this is finished, you will now be able to boot up your computer in either Windows, or in Ubuntu. Congrats!
+### Sign-Up for following accounts
+* [LinkedIn](http://linkedin.com)
+  * Create and/or polish your profile, it is at least as important as your resume if not more if you are looking for developer job. 
+  * Connect to your instructors [Mark] and [Georgie].
+* [GitHub](http://github.com)
+  * Create an account. Pretty much all of the code you will write, will end up here. Again a lot of companies look at the activity on your profile.
+  * Slack your GitHub user name into our channel so we can add you as a member to our Montana Code School GitHub account.
 
-**NOTE:** You might read about the option of setting up something called a virtual machine. Don't. Running Ubuntu from a virtual machine will only cause you problems down the line.
+### Loose Your Terminal Fear
 
-## Setting up your machine
-
-As you begin programming, your computer is going to get cluttered *fast*. It's important for you to clean up your machine before class begins to minimize frustration.
-
-At the code school, *all you really need to get started is a text-editor and a browser*. 
+The standard Terminal is boring. Let's make it pretty!
+* Open Terminal
+  1. Open Spotlight Search (<kbd>Command</kbd> + <kbd>Spacebar</kbd>
+  2. Type Terminal and hit <kbd>Enter</kbd>)
+* Generate a SSH key
+* Adding a new SSH key to your GitHub account
+* Add SSH key to Sourcetree
 
 ### Install software
-
-We will be using Google Chrome for this class. It is fast, has great debugging tools, and establishes a standard for all of us to work with.
-
-[Download Chrome](https://www.google.com/chrome/browser/desktop/index.html)
-
-Now, programming is just a bunch of text editing. We use the Atom text editor. It is highly customizable and really well made.
-
-[Download Atom](https://atom.io/) - put it in your task bar, install command line tools.
 
 This step is optional for some classes but highly recommended for everyone:
 
@@ -69,19 +90,9 @@ Here are some things you will need to download
 
 Get [LastPass](https://www.lastpass.com/) - password manager, download the app, get the chrome extension.
 
-[Slack account](https://slack.com/) download the app but it in your taskbar.
-
 [Github account](https://github.com/) as a bonus step [setup ssh](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) for git.
 
 [Heroku account](https://www.heroku.com/) as a bonus - Heroku command line tools
-
-### Remove things from your desktop
-
-They don't need to be on your desktop, put them in a folder inside of your documents folder. This is mostly just a strongly held pet-peeve of mine.
-
-### Uninstall unnecessary software
-
-Clear up space and reduce clutter.
 
 ### Set up a place for your code
 
