@@ -76,8 +76,10 @@ The standard Terminal is boring. Let's make it pretty!
 1. Open Spotlight Search (<kbd>Command</kbd> + <kbd>Spacebar</kbd>)
 2. Type Terminal and hit <kbd>Enter</kbd>
 3. Terminal App should open in its black and white glory
-4. Install [Homebrew](https://brew.sh/) by pasting the following code <code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-</code> into your Terminal and pressing <kbd>Enter</kbd>
+4. Install [Homebrew](https://brew.sh/) by pasting the following code 
+<code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+</code> 
+into your Terminal and pressing <kbd>Enter</kbd>
 * Generate a SSH key
 * Adding a new SSH key to your GitHub account
 * Add SSH key to Sourcetree
