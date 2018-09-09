@@ -11,7 +11,7 @@ Please follow the following guide prior to the first day of class, so we can all
 * Apple Macbook (ideally Macbook Pro, things can get intense coding, so the more RAM, storage, etc. the better).
 * Any sort of dongle you need to plug in into a HDMI input on a big screen TV.
 
-## Back Up Your Current Data
+### Back Up Your Current Data
 
 **Make sure you backup all of your data prior to your course and periodically thereafter**
 
@@ -22,7 +22,7 @@ There many ways to backup your Macbook, here are the most common ones:
 * [Dropbox](https://www.dropbox.com/)
 * External Hard Drive
 
-## Give Your Mac a Good Cleaning
+### Give Your Mac a Good Cleaning
 If your Mac already runs pretty slow, it won't get any faster with the stuff we are doing.
 
 **So do yourself a favor and give it a good cleaning ;)**
