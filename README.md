@@ -11,6 +11,11 @@ Please follow the following guide prior to the first day of class, so we can all
 * Apple Macbook (ideally Macbook Pro, things can get intense coding, so the more RAM, storage, etc. the better).
 * Any sort of dongle you need to plug in into a HDMI input on a big screen TV.
 
+#### Optional Items
+* Wireless Apple Keyboard
+* Wireless Mouse
+* Anything else that helps your workflow
+
 ### Back Up Your Current Data
 
 **Make sure you backup all of your data prior to your course and periodically thereafter**
