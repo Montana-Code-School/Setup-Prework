@@ -40,6 +40,7 @@ Sharing machines and having to switch from one text editor to a different one ha
 
 ### Things You Have To Install (and Use)
 * macOS (Well this should be installed if you have a Mac ;) )
+* Upgrade to macOS High Sierra if you are running an older version (see Updates in the App Store)
 * xCode (Install from the App Store if it is not installed)
 * [Slack Desktop & Mobile App](https://slack.com/downloads/) (Your communication timeline for the class and potentially at your future employer)
 * [Google Chrome](https://www.google.com/chrome/) (Only latest NON-Canary version please)
@@ -59,7 +60,7 @@ We can work with that, let's chat more prior to the course starting.
   * Connect to your instructors [Georgie](https://www.linkedin.com/in/georgiekirschner/) and [Mark](https://www.linkedin.com/in/mark-buckner/).
 * [GitHub](http://github.com)
   * Create an account. Pretty much all of the code you will write, will end up here. Again a lot of companies look at the activity on your profile.
-  * Slack your GitHub user name into our channel so we can add you as a member to our Montana Code School GitHub account.
+  * Slack your GitHub user name into our channel so we can add you as a team  member to our Montana Code School GitHub account.
 
 ### Loose Your Terminal Fear
 
@@ -67,10 +68,19 @@ The standard Terminal is boring. Let's make it pretty!
 1. Open Spotlight Search (<kbd>Command</kbd> + <kbd>Spacebar</kbd>)
 2. Type Terminal and hit <kbd>Enter</kbd>
 3. Terminal App should open in its black and white glory
-4. Install [Homebrew](https://brew.sh/) by pasting the following code<br>`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br>into your Terminal and pressing <kbd>Enter</kbd>
-* The magic should begin and a bunch of output gets printed to your terminal.
-* Once the installation is done type `brew -v` and hit <kbd>Enter</kbd>
-* You should see `Homebrew 1.7.3` output (maybe with higher version number) in your terminal which means it has been installed successfully (if not try to repeat above steps).
+4. You should be able to type next to the `$` sign.
+5. Paste following code<br>`xcode-select --install`<br>into your Terminal and pressing <kbd>Enter</kbd> 
+6. Install [Homebrew](https://brew.sh/) by pasting the following code<br>`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br>into your Terminal and pressing <kbd>Enter</kbd>
+7. The magic should begin and a bunch of output gets printed to your terminal.
+8. Once the installation is done type `brew -v` and hit <kbd>Enter</kbd>
+9. You should see `Homebrew 1.7.3` output (maybe with higher version number) in your terminal which means it has been installed successfully (if not try to repeat above steps).
+10. Now follow the steps in this [Gist](https://gist.github.com/ZenLulz/c812f70fc86ebdbb189d9fb82f98197e)
+
+If everything worked as expected your Terminal should look like the screenshot shown in the Gist.
+
+### Streamline GitHub
+
+[Add a SSH key](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to your GitHub account
 
 # TO BE CONTINUED...
 
