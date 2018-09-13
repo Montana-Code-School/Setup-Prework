@@ -66,6 +66,9 @@ We can work with that, let's chat more prior to the course starting.
 * [GitHub](http://github.com)
   * Create an account. Pretty much all of the code you will write, will end up here. Again a lot of companies look at the activity on your profile.
   * Slack your GitHub user name into our channel so we can add you as a team  member to our Montana Code School GitHub account.
+* [MeetUp](https://www.meetup.com/)
+  * Create an account and join following the [Montana Programmers](https://www.meetup.com/Montana-Programmers/) and [Bozeman JavaScript Meetup](https://www.meetup.com/Bozeman-JavaScript-Meetup/) groups.
+  * These meetups are a perfect way to meet developers in Bozeman. Especially if you are looking to get a developer job, having a personal connection with some can be an easy way into a company!
 
 ### Loose Your Terminal Fear
 
