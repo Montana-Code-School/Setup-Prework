@@ -95,6 +95,16 @@ The standard Terminal is boring. Let's make it pretty!
 
 If everything worked as expected your Terminal should look like the screenshot shown in the Gist.
 
+### Optimize Visual Studio Code
+
+1. Make sure you have Visual Studio Code installed and you lost your terminal fear described in the steps above
+2. Open Visual Studio Code
+3. Click "Code->Preferences->User Settings" in the top menu bar
+4. Search for "editor: font family" in the search bar
+5. Change the font family to "Source Code Pro for Powerline"
+6. Search for "shell" in the settings
+7. Make sure that "Terminal > Integrated > Shell: Linux" and "Terminal > Integrated > Shell: OSX" show "/bin/zsh" as their path
+
 ### Create a Code Folder
 
 Let's mak a folder for all your coding projects
