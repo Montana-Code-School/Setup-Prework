@@ -116,7 +116,11 @@ Now we are going to install some things in our terminal.
 
 6. At the `$` type `node -v` and `npm -v` these should give you version output if all went well.
 
-### Customizing you terminal
+7. [Follow the directions Here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) so that you have the heroku toolbelt.
+
+8. If that all goes well a `heroku -v` at the prompt -> `$` should give you version output.
+
+### Customizing your terminal
 
 The standard terminal is boring. There are a few options to build out a little more usability in the terminal.
 
@@ -156,13 +160,15 @@ Do you have:
 
 ### Before class starts
 
+Get all those boxes checked? Good.
+
 Take a minute and fill out this [form](https://goo.gl/forms/giMdWq9nHlW6DqMu2)
 
-Get all those boxes checked? Good, you are ready for the  next challenge. This is the final test before class starts:
+Now you are ready for the next and final challenge before class starts:
 
-[This repo]()  holds a basic server and some very simple javascript css and html files.
+[This repo](https://github.com/Montana-Code-School/first-assesment)  holds a basic server and some very simple javascript css and html files.
 
-`cd` into your code folder and lets clone our first repo `git clone <remote_path>`
+`cd` into your code folder and lets clone our first repo `git clone <remote_path>`.
 
 `cd` into your new working folder and open your text editor.  There will be a file titled `README.md`. Lets start there.
 
