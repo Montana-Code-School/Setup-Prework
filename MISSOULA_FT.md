@@ -152,13 +152,19 @@ Do you have:
 * [ ] Atom Text Editor
 * [ ] Atom Integrated With Wakatime
 * [ ] `ssh key` for github
-* [ ] *FINISH YOUR [PRE-WORK](../PREWORK.md)*
+* [ ] *FINISH YOUR [PRE-WORK](../PREWORK.md)
 
 ### Before class starts
 
-Get all those boxes checked? Good, you are ready for the  next challenge. [This repo]()  holds a basic server and some very simple javascript css and html files.
+Take a minute and fill out this [form](https://goo.gl/forms/giMdWq9nHlW6DqMu2)
 
-`cd` into your code folder and lets clone out first repo `git clone <remote_path>`
+Get all those boxes checked? Good, you are ready for the  next challenge. This is the final test before class starts:
+
+[This repo]()  holds a basic server and some very simple javascript css and html files.
+
+`cd` into your code folder and lets clone our first repo `git clone <remote_path>`
+
+`cd` into your new working folder and open your text editor.  There will be a file titled `README.md`. Lets start there.
 
 *****
 
