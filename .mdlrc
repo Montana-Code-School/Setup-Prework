@@ -1,0 +1,3 @@
+# ~MD033 turns off no inline html
+
+rules "~MD033"
