@@ -156,7 +156,7 @@ Do you have:
 * [ ] Atom Text Editor
 * [ ] Atom Integrated With Wakatime
 * [ ] `ssh key` for github
-* [ ] *FINISH YOUR [PRE-WORK](../PREWORK.md)
+* [ ] FINISH YOUR [PRE-WORK](../PREWORK.md)
 
 ### Before class starts
 
@@ -166,11 +166,9 @@ Take a minute and fill out this [form](https://goo.gl/forms/giMdWq9nHlW6DqMu2)
 
 Now you are ready for the next and final challenge before class starts:
 
-[This repo](https://github.com/Montana-Code-School/first-assesment)  holds a basic server and some very simple javascript css and html files.
+[This repo](https://github.com/Montana-Code-School/first-assesment)  holds a basic server and some very simple javascript, css, and html files.
 
-`cd` into your code folder and lets clone our first repo `git clone <remote_path>`.
-
-`cd` into your new working folder and open your text editor.  There will be a file titled `README.md`. Lets start there.
+Jump over there and fork the repo to your profile.  Follow the directions in the [Readme](https://github.com/Montana-Code-School/first-assesment/blob/master/README.md)
 
 *****
 
