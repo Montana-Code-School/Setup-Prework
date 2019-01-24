@@ -156,7 +156,7 @@ Do you have:
 * [ ] Atom Text Editor
 * [ ] Atom Integrated With Wakatime
 * [ ] `ssh key` for github
-* [ ] FINISH YOUR [PRE-WORK](../PREWORK.md)
+* [ ] FINISH YOUR [PRE-WORK](./PREWORK.md)
 
 ### Before class starts
 
