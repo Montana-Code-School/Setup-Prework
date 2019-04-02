@@ -94,7 +94,7 @@ Visual Studio Code comes with a built-in Terminal. However the standard Terminal
 10. Install Z-Shell by `brew install zsh zsh-completitions` and pressing <kbd>Enter</kbd>
 10. Install Oh-My-Zsh by pasting `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` into Terminal
 11. Open the Oh-My-Zsh configuration file by typing `nano ~/.zshrc` and pressing <kbd>Enter</kbd>
-12. Add following line ``DEFAULT_USER=`whoami`` on the first line
+12. Add following line ``DEFAULT_USER=`whoami` `` on the first line
 13. Replace the line `ZSH_THEME="robbyrussell"` by `ZSH_THEME="agnoster"`
 14. Press <kbd>Control</kbd> and <kbd>X</kbd> together to exit the file
 15. Save the changes by pressing <kbd>Y</kbd> and <kbd>Enter</kbd>
