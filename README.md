@@ -118,6 +118,7 @@ Visual Studio Code comes with a built-in Terminal. However the standard Terminal
 }
 ``` 
 into the settings file
+
 23. Close the settings file and save its changes
 24. Restart Visual Studio Code
 
