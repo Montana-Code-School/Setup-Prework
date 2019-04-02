@@ -80,36 +80,54 @@ We can work with that, let's chat more prior to the course starting.
 
 ### Loose Your Terminal Fear
 
-The standard Terminal is boring. Let's make it pretty!
+Visual Studio Code comes with a built-in Terminal. However the standard Terminal is boring. Let's make it pretty!
 
-1. Open Spotlight Search (<kbd>Command</kbd> + <kbd>Spacebar</kbd>)
-2. Type Terminal and hit <kbd>Enter</kbd>
-3. Terminal App should open in its black and white glory
+1. Open Visual Studio Code (<kbd>Command</kbd> + <kbd>Spacebar</kbd>)
+2. Press <kbd>Command</kbd> and <kbd>`</kbd> together
+3. Terminal should open at the bottom of Visual Studio Code its black and white glory.
 4. You should be able to type next to the `$` sign.
 5. Paste following code<br>`xcode-select --install`<br>into your Terminal and pressing <kbd>Enter</kbd>
 6. Install [Homebrew](https://brew.sh/) by pasting the following code<br>`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br>into your Terminal and pressing <kbd>Enter</kbd>
-7. The magic should begin and a bunch of output gets printed to your terminal.
+7. The magic should begin and a bunch of output gets printed to your terminal. <b>Make sure there are no errors in the output which would require to run furter commands!</b>
 8. Once the installation is done type `brew -v` and hit <kbd>Enter</kbd>
-9. You should see `Homebrew 1.7.3` output (maybe with higher version number) in your terminal which means it has been installed successfully (if not try to repeat above steps).
-10. Now follow the steps in this [Gist](https://gist.github.com/ZenLulz/c812f70fc86ebdbb189d9fb82f98197e)
+9. You should see `Homebrew 2.0.2` output (maybe with higher version number) in your terminal which means it has been installed successfully (if not try to repeat above steps).
+10. Install Z-Shell by `brew install zsh zsh-completitions` and pressing <kbd>Enter</kbd>
+10. Install Oh-My-Zsh by pasting `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` into Terminal
+11. Open the Oh-My-Zsh configuration file by typing `nano ~/.zshrc` and pressing <kbd>Enter</kbd>
+12. Add following line ``DEFAULT_USER=`whoami`` on the first line
+13. Replace the line `ZSH_THEME="robbyrussell"` by `ZSH_THEME="agnoster"`
+14. Press <kbd>Control</kbd> and <kbd>X</kbd> together to exit the file
+15. Save the changes by pressing <kbd>Y</kbd> and <kbd>Enter</kbd>
+16. Download Powerline fonts by typing `git clone https://github.com/powerline/fonts.git` and pressing <kbd>Enter</kbd>
+17. Navigate into fonts folder by `cd fonts` and pressing <kbd>Enter</kbd>
+18. Install fonts by `./install.sh` and pressing <kbd>Enter</kbd>
+19. Clean up install by `cd ..` <kbd>Enter</kbd> and `rm -rf fonts` <kbd>Enter</kbd>
+20. Click "Code->Preferences->Settings" in the top menu bar of Visual Studio Code
+21. Click on the small {} icon on the top right to open the settings.json file
+22. Paste 
+```
+{
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Source Code Pro for Powerline",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.shell.osx": "/bin/zsh"
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile"
+}
+``` 
+into the settings file
+23. Close the settings file and save its changes
+24. Restart Visual Studio Code
 
-If everything worked as expected your Terminal should look like the screenshot shown in the Gist.
-
-### Optimize Visual Studio Code
-
-1. Make sure you have Visual Studio Code installed and you lost your terminal fear described in the steps above
-2. Open Visual Studio Code
-3. Click "Code->Preferences->User Settings" in the top menu bar
-4. Search for "editor: font family" in the search bar
-5. Change the font family to "Source Code Pro for Powerline"
-6. Search for "shell" in the settings
-7. Make sure that "Terminal > Integrated > Shell: Linux" and "Terminal > Integrated > Shell: OSX" show "/bin/zsh" as their path
+Your terminal should show the tilda sign ~ in a blue backgorund with an arrow pointing to the right.
 
 ### Create a Code Folder
 
-Let's mak a folder for all your coding projects
+Let's make a folder for all your coding projects
 
-1. Open Terminal
+1. Open Terminal in Visual Studio Code
 2. Type `cd ~` and hit <kbd>Enter</kbd> to access your home directory
 3. Type `mkdir code` and hit <kbd>Enter</kbd> to make a new code folde rin your home directory
 4. Type `ls` and hit <kbd>Enter</kbd>
