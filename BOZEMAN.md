@@ -123,6 +123,7 @@ into the settings file
 24. Restart Visual Studio Code
 
 Your terminal should show the tilda sign ~ in a blue backgorund with an arrow pointing to the right.
+![](terminal-zsh.png)
 
 ### Create a Code Folder
 
