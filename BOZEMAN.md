@@ -78,7 +78,7 @@ We can work with that, let's chat more prior to the course starting.
   - Create an account and join following the [Montana Programmers](https://www.meetup.com/Montana-Programmers/) and [Bozeman JavaScript Meetup](https://www.meetup.com/Bozeman-JavaScript-Meetup/) groups.
   - These meetups are a perfect way to meet developers in Bozeman. Especially if you are looking to get a developer job, having a personal connection with some can be an easy way into a company!
 
-### Loose Your Terminal Fear
+### Lose Your Terminal Fear
 
 Visual Studio Code comes with a built-in Terminal. However the standard Terminal is boring. Let's make it pretty!
 
@@ -91,20 +91,21 @@ Visual Studio Code comes with a built-in Terminal. However the standard Terminal
 7. The magic should begin and a bunch of output gets printed to your terminal. <b>Make sure there are no errors in the output which would require to run furter commands!</b>
 8. Once the installation is done type `brew -v` and hit <kbd>Enter</kbd>
 9. You should see `Homebrew 2.0.2` output (maybe with higher version number) in your terminal which means it has been installed successfully (if not try to repeat above steps).
-10. Install Z-Shell by `brew install zsh zsh-completitions` and pressing <kbd>Enter</kbd>
-10. Install Oh-My-Zsh by pasting `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` into Terminal
-11. Open the Oh-My-Zsh configuration file by typing `nano ~/.zshrc` and pressing <kbd>Enter</kbd>
-12. Add following line ``DEFAULT_USER=`whoami` `` on the first line
-13. Replace the line `ZSH_THEME="robbyrussell"` by `ZSH_THEME="agnoster"`
-14. Press <kbd>Control</kbd> and <kbd>X</kbd> together to exit the file
-15. Save the changes by pressing <kbd>Y</kbd> and <kbd>Enter</kbd>
-16. Download Powerline fonts by typing `git clone https://github.com/powerline/fonts.git` and pressing <kbd>Enter</kbd>
-17. Navigate into fonts folder by `cd fonts` and pressing <kbd>Enter</kbd>
-18. Install fonts by `./install.sh` and pressing <kbd>Enter</kbd>
-19. Clean up install by `cd ..` <kbd>Enter</kbd> and `rm -rf fonts` <kbd>Enter</kbd>
-20. Click "Code->Preferences->Settings" in the top menu bar of Visual Studio Code
-21. Click on the small {} icon on the top right to open the settings.json file
-22. Paste 
+10. Install Z-Shell by `brew install zsh zsh-completions` and pressing <kbd>Enter</kbd>
+11. Install Oh-My-Zsh by pasting `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` into Terminal
+12. Open the Oh-My-Zsh configuration file by typing `nano ~/.zshrc` and pressing <kbd>Enter</kbd>
+13. Add following line `` DEFAULT_USER=`whoami` `` on the first line
+14. Replace the line `ZSH_THEME="robbyrussell"` by `ZSH_THEME="agnoster"`
+15. Press <kbd>Control</kbd> and <kbd>X</kbd> together to exit the file
+16. Save the changes by pressing <kbd>Y</kbd> and <kbd>Enter</kbd>
+17. Download Powerline fonts by typing `git clone https://github.com/powerline/fonts.git` and pressing <kbd>Enter</kbd>
+18. Navigate into fonts folder by `cd fonts` and pressing <kbd>Enter</kbd>
+19. Install fonts by `./install.sh` and pressing <kbd>Enter</kbd>
+20. Clean up install by `cd ..` <kbd>Enter</kbd> and `rm -rf fonts` <kbd>Enter</kbd>
+21. Click "Code->Preferences->Settings" in the top menu bar of Visual Studio Code
+22. Click on the small {} icon on the top right to open the settings.json file
+23. Paste
+
 ```
 {
   "editor.detectIndentation": false,
@@ -116,7 +117,8 @@ Visual Studio Code comes with a built-in Terminal. However the standard Terminal
   "window.zoomLevel": 1,
   "workbench.startupEditor": "newUntitledFile"
 }
-``` 
+```
+
 into the settings file
 
 23. Close the settings file and save its changes
