@@ -70,7 +70,7 @@ We can work with that, let's chat more prior to the course starting.
 
 - [LinkedIn](http://linkedin.com)
   - Create and/or polish your profile, it is at least as important as your resume if not more if you are looking for tech job.
-  - Connect to your instructors [Georgie](https://www.linkedin.com/in/georgiekirschner/) and [Mark](https://www.linkedin.com/in/mark-buckner/).
+  - Connect to your instructor [Georgie](https://www.linkedin.com/in/georgiekirschner/) and teaching assistant [Robert](https://www.linkedin.com/in/robertdcrum/).
 - [GitHub](http://github.com)
   - Create an account. Pretty much all of the code you will write, will end up here. Again a lot of companies look at the activity on your profile.
   - Slack your GitHub user name into our channel so we can add you as a team member to our Montana Code School GitHub account.
